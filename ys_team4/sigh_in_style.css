@@ -3,22 +3,17 @@
     margin: 0;
     padding: 0;
 }
-
-ul,
-li {
+ul,li {
     list-style: none;
 }
-
 a {
     text-decoration: none;
 }
-
 #content {
     box-sizing: border-box;
     width: 1080px;
     margin: 0 auto;
 }
-
 /* 1 */
 #login_box {
     width: 420px;
