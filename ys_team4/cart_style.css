@@ -145,6 +145,7 @@ input[id="delivery2"]:checked + label#out_menu {
     background-color: #f0f0f0;
     border-top: 1px solid #b2b2b2;
     border-bottom: 1px solid #b2b2b2;
+    padding: 10px;
     align-items: center;
 
     display: grid;
@@ -153,6 +154,7 @@ input[id="delivery2"]:checked + label#out_menu {
 }
 .table02 {
     border-bottom: 1px solid #b2b2b2;
+    padding: 10px;
     align-items: center;
 
     display: grid;
@@ -160,11 +162,29 @@ input[id="delivery2"]:checked + label#out_menu {
     grid-template-columns: 27px 92px auto 88px 110px 88px 88px 85px 98px 110px;
 }
 .t2_item04 > input[type="number"] {
+    background-color: white;
+    border: 1px solid #b2b2b2;
+    border-radius: 4px;
+    padding: 4px;
     width: 50px;
+
+    transition: 0.4s ease;
 }
 .t2_item04 > input[type="button"] {
+    background-color: white;
+    border: 1px solid;
+    border-radius: 4px;
     margin-top: 4px;
     padding: 4px;
+
+    color: #b2b2b2;
+
+    transition: 0.4s ease;
+}
+.t2_item04 > input[type="button"]:hover {
+    color: black;
+
+    cursor: pointer;
 }
 .t2_item10 input {
     margin-bottom: 4px;
@@ -175,9 +195,23 @@ input[id="delivery2"]:checked + label#out_menu {
     height: 32px;
 
     color: #b2b2b2;
+    
+    transition: 0.4s ease;
+}
+.t2_item10 input:hover {
+    border: 1px solid;
+    color: black;
+
+    cursor: pointer;
 }
 .t2_item10 input:first-child {
     background-color: black;
+    color: white;
+
+    transition: 0.4s ease;
+}
+.t2_item10 input:first-child:hover {
+    background-color: #b2b2b2;
     color: white;
 }
 .table03 {
@@ -208,9 +242,22 @@ input[id="delivery2"]:checked + label#out_menu {
     height: 32px;
 
     color: #b2b2b2;
+
+    transition: 0.4s ease;
+    cursor: pointer;
+}
+.table05 input:hover{
+    color: black;
 }
 .t5_item02 input {
+    cursor: pointer;
     background-color: #b2b2b2;
+    color: white;
+
+    transition: 0.4s ease;
+}
+.t5_item02 input:hover {
+    background-color: black;
     color: white;
 }
 .table {
