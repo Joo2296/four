@@ -60,7 +60,7 @@ document.addEventListener("DOMContentLoaded", function () {
           <div style="display: flex; align-items: center; margin-bottom: 10px;">
             <img src="${product.image}" alt="${product.name}" style="width: 50px; height: 50px; margin-right: 10px;">
             <div>
-              <p style="margin: 0;">맛선택</p>
+              <p style="margin: 0;"></p>
               <div>
                 <span class="color-option" style="background-color: #FFFFFF; border: 1px solid #000;"></span>
                 <span class="color-option" style="background-color: #000000;"></span>
@@ -219,8 +219,8 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   // 페이지 로드 후 1초 뒤에 초기 정렬을 수행합니다. (동적 로딩된 콘텐츠 대응)
-  setTimeout(() => {
-    console.log("Performing initial sort"); // 초기 정렬 시작 로그
-    sortProducts(true);
-  }, 1000);
+  // setTimeout(() => {
+  //   console.log("Performing initial sort"); // 초기 정렬 시작 로그
+  //   sortProducts(true);
+  // }, 1000);
 });
