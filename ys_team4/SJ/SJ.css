@@ -361,7 +361,7 @@ li {
 /* 푸터 스타일 */
 #footer{
   overflow: hidden;
-  margin-top: 40px;
+  margin: 40px 0;
   border-top: 1px solid #b2b2b2;
   padding-top: 40px;
 
